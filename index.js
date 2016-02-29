@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
   
   if( navigator.geolocation ){ 
-    var params = {enableHighAccuracy: true, timeout:3600, maximumAge:60000};
+    var params = {enableHighAccuracy: true, timeout:3600, maximumAge:100000};
     navigator.geolocation.getCurrentPosition( drawMap, Errors, params ); 
 
 	  
